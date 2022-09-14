@@ -1,0 +1,21 @@
+{
+  "name": "first-node-script",
+  "version": "1.0.0",
+  "description": "처음 해보는 node.js",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --watch *.js --exec npm run cowsay",
+    "cowsay": "node cowsay.js",
+    "lodash": "node lodash.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pjh",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
