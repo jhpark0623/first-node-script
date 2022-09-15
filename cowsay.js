@@ -2,10 +2,13 @@ let cowsay = require("cowsay");
 
 console.log(
   cowsay.say({
-    text: "런 데빌 데빌 런 런",
-    e: "ㅇ",
+    text: "소~하~",
+    e: "⊙ ",
   })
 );
+
+require("dotenv").config();
+console.log(process.env.SECRET_KEY); // remove this after you've confirmed it working
 
 // var cowsay = require("cowsay");
 
